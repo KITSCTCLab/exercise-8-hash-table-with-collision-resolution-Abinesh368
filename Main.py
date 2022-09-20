@@ -1,3 +1,4 @@
+import re
 def display_hash(hashtable) -> None:
  for keyvalue in range(len(hashtable)):
   content = hashtable[keyvalue]
