@@ -19,7 +19,7 @@ hash_table_size = int(input())
 HashTable = [[] for _ in range(hash_table_size)]
 input_data = input()
 data = []
-for item in re.split('], |].', input_data):
+for item in re.split('[, |].', input_data):
   item = item[1:]
   data = item.split(', ')
   if len(data) > 1:
